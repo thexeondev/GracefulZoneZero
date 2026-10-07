@@ -1,0 +1,7 @@
+.{
+    .name = .grace,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .paths = .{""},
+    .fingerprint = 0x161b38f311c21337,
+}

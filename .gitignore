@@ -1,0 +1,4 @@
+zig-out/
+.zig-dist/
+.zig-cache/
+storage/

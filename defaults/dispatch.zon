@@ -1,0 +1,28 @@
+.{
+    .servers = .{.{
+        .name = "grace",
+        .title = "GracefulZoneZero",
+        .client_version = "OSCBWin0.2.0",
+        .gateway = .{ .ip = "127.0.0.1", .port = 20501 },
+        .client_secret_key = "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",
+    }},
+
+    .versions = .{.{
+        .tag = "OSCBWin0.2.0",
+        .cdn = .{
+            .GameResUrl = "https://autopatchos.zenlesszonezero.com/game_res/cb2_live/output_710004_f7cf131a11/client/StandaloneWindows64/oversea",
+            .P4ChangeList = 710004,
+            .audio_revision = 704718,
+            .data_revision = 710004,
+            .res_revision = 710004,
+            .silence_revision = 709447,
+            .versions_list = .{
+                .{ .fileName = "res_version", .fileSize = 1119897, .fileMD5 = "5417589294312259295" },
+                .{ .fileName = "data_version", .fileSize = 415, .fileMD5 = "9314924199024189706" },
+                .{ .fileName = "silence_version", .fileSize = 233, .fileMD5 = "2827758187406540836" },
+                .{ .fileName = "audio_version", .fileSize = 19700, .fileMD5 = "14687279962448641397" },
+                .{ .fileName = "base_revision", .fileSize = 17, .fileMD5 = "14482497371623582148" },
+            },
+        },
+    }},
+}

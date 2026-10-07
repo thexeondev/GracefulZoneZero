@@ -1,0 +1,17 @@
+#!/bin/sh
+
+VERSION="0.17.0"
+PLATFORM="x86_64-linux"
+TARBALL="zig-${PLATFORM}-${VERSION}"
+
+DIST_DIR="./.zig-dist"
+DEST_DIR="${DIST_DIR}/${TARBALL}/"
+
+if [ ! -d $DEST_DIR ]; then
+    mkdir -p "${DIST_DIR}"
+	curl -L "https://ziglang.org/download/${VERSION}/{$TARBALL}.tar.xz" |
+	tar xfJ - -C "${DIST_DIR}" &&
+	export PATH=$(realpath $DEST_DIR):$PATH
+else
+	export PATH=$(realpath $DEST_DIR):$PATH
+fi
