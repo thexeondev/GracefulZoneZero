@@ -35,7 +35,7 @@ pub const usage = std.fmt.comptimePrint(
 
 const default_listen_address = "127.0.0.1:12401";
 const default_outer_url = "http://127.0.0.1:12401";
-const default_config_path = "http://127.0.0.1:12401";
+const default_config_path = "dispatch.zon";
 const default_concurrency: u32 = 16;
 
 pub const Args = struct {
